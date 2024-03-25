@@ -68,6 +68,9 @@
   <html<#if realm.internationalizationEnabled> lang="${locale.currentLanguageTag}"</#if>>
     <head>
       <@document.kw script=script />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Truculenta:opsz@12..72&display=swap" rel="stylesheet">
     </head>
     <@body.kw>
       <@container.kw>
